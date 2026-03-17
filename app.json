@@ -12,7 +12,8 @@
     "android": {
       "adaptiveIcon": {
         "backgroundColor": "#121212"
-      }
+      },
+      "package": "com.benmoshe.arcadevault"
     },
     "plugins": [
       "expo-router"
