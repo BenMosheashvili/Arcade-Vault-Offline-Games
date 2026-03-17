@@ -21,9 +21,7 @@
 
 | 🤳 Scan to Install | 🔗 Direct Download |
 | :--- | :--- |
-
-<img width="401" height="472" alt="image" src="https://github.com/user-attachments/assets/98e0cbf0-29e7-4cda-b824-b34af103da18" />
-| [📲 Download Arcade Vault APK](https://expo.dev/accounts/benmoshe/projects/arcade-vault/builds/ba647825-ec41-4e90-8e96-f58391a429a2) |
+| ![QR Code](./screenshots/qr.png) | [📲 Download Arcade Vault APK](https://expo.dev/accounts/benmoshe/projects/arcade-vault) |
 
 **Quick Start:**
 1. Scan the QR code or click the download link above.
