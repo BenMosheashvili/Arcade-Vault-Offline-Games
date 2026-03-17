@@ -4,9 +4,14 @@
 ![React Native](https://img.shields.io/badge/React_Native-SDK_54-61DAFB?style=for-the-badge&logo=react)
 ![TypeScript](https://img.shields.io/badge/TypeScript-Strict-3178C6?style=for-the-badge&logo=typescript)
 ![Expo](https://img.shields.io/badge/Expo-EAS_Ready-000020?style=for-the-badge&logo=expo)
-![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
 > "This isn't just a gaming app. It's the story of a migration, a battle against legacy code, and a victory for modern mobile architecture."
+
+---
+
+## 📸 Preview
+![Arcade Vault Demo](./screenshots/demo.png) 
+*(כאן תופיע התמונה אחרי שתעלה אותה לתיקיית screenshots)*
 
 ---
 
@@ -25,42 +30,22 @@ As a 3rd-year Computer Science student, I decided to treat this as a professiona
 ## 🛠️ Setup & Installation (For Developers)
 If you want to run this project locally on your machine:
 1. **Clone the repository:** `git clone https://github.com/BenMosheashvili/Arcade-Vault-Offline-Games.git`
-2. **Install dependencies:** `npm install --legacy-peer-deps` (Crucial for SDK 54 compatibility).
+2. **Install dependencies:** `npm install --legacy-peer-deps` 
 3. **Start the development server:** `npx expo start -c`
-4. **Scan the QR:** Use the **Expo Go** app on your Android/iOS device.
 
 ---
 
 ## 🎮 The Master Engines
 
 ### 🧊 Tetris Pro: The Matrix Implementation
-This isn't a simple "falling blocks" game. The Tetris engine was built using a 2D Matrix rotation algorithm.
+The Tetris engine was built using a 2D Matrix rotation algorithm.
 * **Ghost Piece Calculation:** Real-time projection of the block's landing position.
 * **Wall Kick Logic:** Mathematically handling rotations against grid boundaries.
 * **Rotation Matrix:**
   $$R = \begin{pmatrix} 0 & 1 \\ -1 & 0 \end{pmatrix}$$ 
-  Applied to every tetromino coordinate during a spin.
 
 ### 🏓 Pong Evolution: Adaptive AI
-The Pong engine features a dynamic AI that simulates human error. Instead of a "perfect wall", the CPU paddle uses a linear interpolation (Lerp) with a reaction delay, making the difficulty feel natural and challenging.
-
-### 🐍 Snake & Beyond
-Optimized for the lowest possible latency, utilizing React's `useRef` to maintain game state without triggering unnecessary re-renders, ensuring a buttery-smooth experience.
-
----
-
-## 🚧 The "Battle of SDK 54" (Lessons Learned)
-During development, we hit a wall—the infamous **Error 500 (Unable to resolve module)**.
-* **The Conflict:** Peer dependency mismatches between React 18/19 and Expo's core.
-* **The Strategy:** A full wipe of `node_modules` and a forced resolution using `--legacy-peer-deps`.
-* **The Deployment Fix:** Implementing a custom `.npmrc` configuration to allow the **EAS Build** server to bypass dependency locks.
-
----
-
-## 🚀 Future Roadmap
-* [ ] Global Leaderboards (Firebase Integration)
-* [ ] Bluetooth Multiplayer for Pong
-* [ ] Achievement System (Native Haptics)
+The Pong engine features a dynamic AI that simulates human error. Instead of a "perfect wall", the CPU paddle uses a linear interpolation (Lerp) with a reaction delay.
 
 ---
 
@@ -68,5 +53,3 @@ During development, we hit a wall—the infamous **Error 500 (Unable to resolve 
 **Ben Moshiaishvili** - *3rd Year Computer Science Student @ Ashkelon Academic College*
 
 > **Developer's Note:** While I have a deep-seated love for the flexibility of **JavaScript**, I chose to architect this project in **TypeScript**. This choice was driven by a commitment to high-quality, strict, and predictable code—ensuring the Arcade Vault is as stable as it is fun.
-
----
