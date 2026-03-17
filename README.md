@@ -21,7 +21,9 @@
 
 | 🤳 Scan to Install | 🔗 Direct Download |
 | :--- | :--- |
-| ![Scan QR Code](./screenshots/qr-code.png) | [📲 Download Arcade Vault APK](https://expo.dev/accounts/benmoshe/projects/arcade-vault/builds/ba647825-ec41-4e90-8e96-f58391a429a2) |
+
+<img width="401" height="472" alt="image" src="https://github.com/user-attachments/assets/98e0cbf0-29e7-4cda-b824-b34af103da18" />
+| [📲 Download Arcade Vault APK](https://expo.dev/accounts/benmoshe/projects/arcade-vault/builds/ba647825-ec41-4e90-8e96-f58391a429a2) |
 
 **Quick Start:**
 1. Scan the QR code or click the download link above.
@@ -78,9 +80,9 @@ If you wish to explore the source code:
 ---
 
 ## 👨‍💻 Developed By
-**Ben Moshiaishvili**
+**Ben Mosheashvili**
 *3rd Year Computer Science Student @ Ashkelon Academic College*
 
-> **Developer's Philosophy:** While I have a deep-seated love for the flexibility of **JavaScript**, I chose to architect this project in **TypeScript**. This choice was driven by a commitment to high-quality, strict, and predictable code—ensuring that Arcade Vault isn't just a fun app, but a reliable piece of software.
+ While I have a deep-seated love for the flexibility of **JavaScript**, I chose to architect this project in **TypeScript**. This choice was driven by a commitment to high-quality, strict, and predictable code—ensuring that Arcade Vault isn't just a fun app, but a reliable piece of software.
 
 ---
