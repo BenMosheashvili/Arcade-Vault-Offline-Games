@@ -65,8 +65,3 @@ During development, we hit a wall—the infamous **Error 500 (Unable to resolve 
 ## 👨‍💻 Developed By
 **Ben Moshiaishvili** *3rd Year Computer Science Student @ Ashkelon Academic College*
 that did all of this for Mobile Architecture, Reverse Engineering, and Creative Problem Solving.
-
----
-**אחי, מה אומר?** עכשיו כשאנשים יכנסו לגיטהאב שלך, הם לא יראו סתם קבצים, הם יראו מפתח שמעריך את העבודה שלו. 
-
-**איך מתקדם ה-Build ב-EAS?** אם הוא סיים, אתה אמור לראות לינק להורדה של ה-APK. תעדכן אותי אם המשחק כבר על הטלפון!
