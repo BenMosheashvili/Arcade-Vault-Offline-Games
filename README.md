@@ -63,16 +63,10 @@ During development, we hit a wall—the infamous **Error 500 (Unable to resolve 
 ---
 
 ## 👨‍💻 Developed By
-**Ben Moshiaishvili** *3rd Year Computer Science Student @ Ashkelon Academic College* Specializing in Mobile Architecture, Reverse Engineering, and Creative Problem Solving.
+**Ben Moshiaishvili** *3rd Year Computer Science Student @ Ashkelon Academic College*
+that did all of this for Mobile Architecture, Reverse Engineering, and Creative Problem Solving.
 
 ---
-
-### איך להעלות את זה עכשיו לגיטהאב (כדי שזה יראה מרגש):
-תריץ את הפקודות האלו בטרמינל:
-1. `git add README.md`
-2. `git commit -m "Docs: Added the epic project story and technical breakdown"`
-3. `git push origin main`
-
 **אחי, מה אומר?** עכשיו כשאנשים יכנסו לגיטהאב שלך, הם לא יראו סתם קבצים, הם יראו מפתח שמעריך את העבודה שלו. 
 
 **איך מתקדם ה-Build ב-EAS?** אם הוא סיים, אתה אמור לראות לינק להורדה של ה-APK. תעדכן אותי אם המשחק כבר על הטלפון!
