@@ -4,52 +4,83 @@
 ![React Native](https://img.shields.io/badge/React_Native-SDK_54-61DAFB?style=for-the-badge&logo=react)
 ![TypeScript](https://img.shields.io/badge/TypeScript-Strict-3178C6?style=for-the-badge&logo=typescript)
 ![Expo](https://img.shields.io/badge/Expo-EAS_Ready-000020?style=for-the-badge&logo=expo)
+![Status](https://img.shields.io/badge/Status-Production_Ready-success)
 
-> "This isn't just a gaming app. It's the story of a migration, a battle against legacy code, and a victory for modern mobile architecture."
-
----
-
-## 📸 Preview
-![Arcade Vault Demo](./screenshots/demo.png) 
-*(כאן תופיע התמונה אחרי שתעלה אותה לתיקיית screenshots)*
+> "This isn't just a gaming app. It's a masterclass in migration, a victory over legacy bloat, and a showcase of modern mobile architecture."
 
 ---
 
-## 📥 Download & Play
-**Download the latest Android APK here:** [📲 Download Arcade Vault (Android APK)](https://expo.dev/accounts/benmoshe/projects/arcade-vault/builds/ba647825-ec41-4e90-8e96-f58391a429a2)
+## 📸 Project Preview
+![Arcade Vault Demo](./screenshots/demo.png)
+*High-fidelity retro graphics, smooth Native UI, and haptic-responsive gameplay.*
 
 ---
 
-## 📖 The Journey (The Backstory)
-This project began with a daunting challenge. I inherited a codebase from a web-based environment (Replit) that was drowning in over **30,000 files** of "bloatware". It was broken, the SDK was outdated, and it refused to run on a physical device.
+## 📥 Install & Play (User Guide)
+**No coding knowledge required. Follow these steps to get the Arcade on your phone:**
 
-As a 3rd-year Computer Science student, I decided to treat this as a professional **Reverse Engineering & Migration** mission. I stripped the project to its core, deleted the noise, and rebuilt it as a premium **React Native** application.
+| 🤳 Scan to Install | 🔗 Direct Download |
+| :--- | :--- |
+| ![Scan QR Code](./screenshots/qr-code.png) | [📲 Download Arcade Vault APK](https://expo.dev/accounts/benmoshe/projects/arcade-vault/builds/ba647825-ec41-4e90-8e96-f58391a429a2) |
+
+**Quick Start:**
+1. Scan the QR code or click the download link above.
+2. Open the downloaded `.apk` file on your Android device.
+3. If prompted, allow "Installation from unknown sources".
+4. Enjoy a 100% offline gaming experience.
 
 ---
 
-## 🛠️ Setup & Installation (For Developers)
-If you want to run this project locally on your machine:
-1. **Clone the repository:** `git clone https://github.com/BenMosheashvili/Arcade-Vault-Offline-Games.git`
-2. **Install dependencies:** `npm install --legacy-peer-deps` 
-3. **Start the development server:** `npx expo start -c`
+## 📖 The Journey: The Reverse Engineering Mission
+This project began with a daunting challenge. I inherited a legacy codebase from a web-based environment (Replit) that was practically unusable. It was a "black box" drowning in over **30,000 redundant files**, broken dependencies, and an outdated architecture that couldn't even boot on a physical device.
+
+As a 3rd-year Computer Science student, I approached this as a professional **Migration & Optimization** mission. I stripped the project to its absolute core, eliminated the "bloatware," and rebuilt the entire infrastructure on **React Native** and **Expo SDK 54**.
 
 ---
 
-## 🎮 The Master Engines
+## 🚧 The Infrastructure War: "Battle of SDK 54"
+The biggest hurdle wasn't the games—it was the foundation. During the transition to Expo SDK 54, we encountered the infamous **Error 500 (Unable to resolve module)**.
 
-### 🧊 Tetris Pro: The Matrix Implementation
-The Tetris engine was built using a 2D Matrix rotation algorithm.
-* **Ghost Piece Calculation:** Real-time projection of the block's landing position.
-* **Wall Kick Logic:** Mathematically handling rotations against grid boundaries.
-* **Rotation Matrix:**
-  $$R = \begin{pmatrix} 0 & 1 \\ -1 & 0 \end{pmatrix}$$ 
+### The Conflict:
+A critical mismatch between React 18/19 and Expo's peer dependencies created a "dependency hell." The cloud build servers (EAS) refused to compile the project.
 
-### 🏓 Pong Evolution: Adaptive AI
-The Pong engine features a dynamic AI that simulates human error. Instead of a "perfect wall", the CPU paddle uses a linear interpolation (Lerp) with a reaction delay.
+### The Resolution:
+1. **Hard Reset:** Performed a global wipe of `node_modules` and `package-lock.json`.
+2. **Legacy Resolution:** Implemented a `--legacy-peer-deps` strategy to force stability.
+3. **CI/CD Optimization:** Created a custom `.npmrc` configuration, allowing the **EAS Build** server to mirror the local development environment.
+4. **Result:** A clean, 100% reproducible build pipeline that works in both local and cloud environments.
+
+---
+
+## 🎮 Game Engine Deep-Dive
+
+### 🧊 Tetris Pro: Matrix Dynamics
+This is a mathematically rigorous implementation of Tetris.
+* **Rotation Matrix:** Utilizes a 2D coordinate transformation:
+  $$R = \begin{pmatrix} 0 & 1 \\ -1 & 0 \end{pmatrix}$$
+* **Wall Kick Algorithm:** Handles complex rotations when blocks are adjacent to boundaries, preventing "stuck" states.
+* **Ghost Piece Logic:** Real-time shadow projection using a recursive collision-checking loop.
+
+### 🏓 Pong Evolution: AI & Physics
+Features a non-deterministic AI. Instead of a "perfect wall" paddle, the CPU uses **Linear Interpolation (Lerp)** with a simulated reaction delay, creating a challenging and "human-like" opponent.
+
+### 🐍 Snake & 2048
+Optimized for zero-latency. Used `useRef` hooks to manage the game loops without triggering expensive React re-renders, ensuring a consistent **60 FPS** experience.
+
+---
+
+## 🛠️ Developer Setup
+If you wish to explore the source code:
+1. **Clone:** `git clone https://github.com/BenMosheashvili/Arcade-Vault-Offline-Games.git`
+2. **Install:** `npm install --legacy-peer-deps`
+3. **Run:** `npx expo start -c`
 
 ---
 
 ## 👨‍💻 Developed By
-**Ben Moshiaishvili** - *3rd Year Computer Science Student @ Ashkelon Academic College*
+**Ben Moshiaishvili**
+*3rd Year Computer Science Student @ Ashkelon Academic College*
 
-> **Developer's Note:** While I have a deep-seated love for the flexibility of **JavaScript**, I chose to architect this project in **TypeScript**. This choice was driven by a commitment to high-quality, strict, and predictable code—ensuring the Arcade Vault is as stable as it is fun.
+> **Developer's Philosophy:** While I have a deep-seated love for the flexibility of **JavaScript**, I chose to architect this project in **TypeScript**. This choice was driven by a commitment to high-quality, strict, and predictable code—ensuring that Arcade Vault isn't just a fun app, but a reliable piece of software.
+
+---
