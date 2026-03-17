@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "Arcade Vault",
+    "slug": "arcade-vault",
+    "version": "1.0.0",
+    "sdkVersion": "54.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#121212"
+      }
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "5d856662-6ae1-4ab6-a8a3-4237e836e886"
+      }
+    }
+  }
+}
