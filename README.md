@@ -22,7 +22,7 @@
 | 🤳 Scan to Install | 🔗 Direct Download |
 | :--- | :--- |
 | ![QR Code](./screenshots/qr.png) | [📲 Download Arcade Vault APK](https://expo.dev/accounts/benmoshe/projects/arcade-vault) |
-
+💡 **Note:** If the QR code or direct link above expires, you can always download the latest `.apk` file directly from the [GitHub Releases](https://github.com/BenMosheashvili/Arcade-Vault-Offline-Games/releases) page. 
 **Quick Start:**
 1. Scan the QR code or click the download link above.
 2. Open the downloaded `.apk` file on your Android device.
